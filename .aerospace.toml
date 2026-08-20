@@ -10,7 +10,7 @@ start-at-login = true
 
 [mode.main.binding]
     cmd-enter = ['exec-and-forget open -n /Applications/Ghostty.app']
-    cmd-v = 'exec-and-forget open ~'
+    cmd-shift-v = 'exec-and-forget open ~'
     # cmd-d = 'open -a Spotlight' // Done by system shortcut
     cmd-h =         'focus --boundaries-action wrap-around-the-workspace left'
     cmd-j =         'focus --boundaries-action wrap-around-the-workspace down'
